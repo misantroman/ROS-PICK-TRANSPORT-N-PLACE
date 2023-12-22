@@ -1,0 +1,47 @@
+##__________________Move_srv Parameters__________________##
+
+# Mobile base motion Parameters for Picking  
+robot_init_pick_pose : [8.319, 0.072, 0.0,0.0, 0.0, -0.763, 0.646]
+
+# Mobile base motion Parameters Placing 
+robot_init_place_pose : [8.700, -0.143, 0.0, 0.0, 0.0, 0.589, 0.808]
+
+# Head Parameters
+head_pick_pose : {blue_object: [0.27, -0.7],
+                    green_object: [-0.2, -0.7],
+                    red_object: [0.4, -0.7]}
+
+# Pick poses for the base of the robot
+blue_object_pick : [8.6, -2.6, 0.0,0.0, 0.0, 1.0, 0.018]
+green_object_pick : [7.7, -3.9, 0.0,0.0, 0.0, 0.703, 0.711]
+red_object_pick : [7.4, -2, 0.0,0.0, 0.0, -0.673, 0.739]
+
+# Place poses for the base of the robot
+blue_object_place : [12.56, 0.5, 0.0,0.0, 0.0, -0.760, 0.646]
+green_object_place : [11.7, 0.5, 0.0,0.0, 0.0, -0.760, 0.646]
+red_object_place : [10.58, 0.5, 0.0,0.0, 0.0, -0.763, 0.646]
+
+##__________________tags_process Parameters__________________##
+table_position : [7.765,-2.97,.392]
+
+blue_cylinder_position : [10.5,-.312,.345]
+green_cylinder_position : [11.5,-.312,.345]
+red_cylinder_position : [12.5,-.312,.345]
+
+##__________________Pick Parameters__________________##
+
+# Arm Picking Parameters
+pose_safe_move : [0.5,0.2,1.5,0.9,0.0,0.0,0.0]
+pose_safe_pick : [0.453058478764, -0.489125608369, 1.37155819656,0.00990071387177, 0.338181114741, -0.0326650404228, 0.940461857085]
+
+##__________________Place Parameters__________________##
+
+
+# Arm Placing Parameters
+place_hexagon : [0.4,-0.16,-1.52,1.71,-0.21,0,0]
+place_triangle : [0.56,0.16,-1.70,1.44,0.27,-0.94,0.33]
+place_cube : [0.4,-0.16,-1.52,1.71,-0.21,0,0]
+
+
+head_place_pose : [0, -0.3]
+    

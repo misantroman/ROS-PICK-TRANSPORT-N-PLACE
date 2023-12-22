@@ -1,0 +1,9 @@
+#goal definition
+int8 status
+int8 goal_id
+---
+#result definition
+string r
+---
+#feedback
+string f
